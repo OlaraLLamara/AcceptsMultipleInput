@@ -22,7 +22,12 @@ print("")
 print('***************************************')
 print ("The total is:", total)
 print ("The Number of input accepted:", num)
-print ("The average is:", total/num)
+
+if(num==0):
+    print("cannot divide by zero")
+else:
+     print ("The average is:", total/num)
+
 print ('**************************************')
 print("")
 print("")
